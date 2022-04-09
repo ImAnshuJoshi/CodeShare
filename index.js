@@ -17,7 +17,7 @@
 //   appId: "1:632339682579:web:cfd37835b1ee031cc836e6"
 // };
 
-  // firebase.initializeApp(firebaseConfig);
+//   firebase.initializeApp(firebaseConfig);
   function sendMessage(){
       const name=document.getElementById('name').value;
       const phone=document.getElementById('phone').value;
