@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index_css.css">
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+    ></script>
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home page</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="navbar_container">
+            <a href="/" id="nav_logo"> <img class="logo_pic "src="images/C.png" alt=""><span class="code">Code</span>Share</a>
+        
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_items">
+                    <a href="/" class="navbar_links">HOME</a>
+                </li>
+                <li class="navbar_items">
+                    <a href="#CONTESTS" class="navbar_links">CONTESTS</a>
+                </li>
+                <li class="navbar_items">
+                    <a href="chatting.html" class="navbar_links">DISCUSS</a>
+                </li>
+                <li class="navbar_items">
+                    <a href="search/search.html" class="navbar_links">SEARCH</a>
+                </li>
+                <li class="navbar_items">
+                    <a href="main.html" class="navbar_links">LOGOUT</a>
+                </li>
+               
+            </ul>
+            <li class="navbar_items">
+                <a href="profile/profile.html" class="navbar_links nav_email"> <span id="user" class="message"><Email-id ></Email-id></span></a>
+            </li>
+        </div>
+    </nav>
+    
+    <!-- home  -->
+    <div class="home" id="HOME">
+        <div class="Text">We <span class="redd">PASS</span> expectations <br>and <span class="redd">KILL</span> the competition.</div>
+        <a href="https://www.geeksforgeeks.org/how-to-prepare-for-competitive-programming/">
+        <button class="know_more">Know more</button>
+    </a>
+    </div>
+    <span id="user" class="message"><Email-id ></Email-id></span>
+    <!-- CONTESTS -->
+    <div id="CONTESTS">
+    <div class="contests">
+        <h2>Upcoming Contests</h2>
+        <p>Get Directly to the contest </p>
+        <div class="same-row">
+    <div class="row">
+        <div class="list-col">
+            <a href="https://www.codechef.com/contests" target="_blank">
+            <img src="images/codechef.png" alt="">
+        </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="list-col">
+            <a href="https://codeforces.com/contests" target="_blank">
+            <img src="images/codeforces.jpg" alt="">
+        </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="list-col">
+            <a href="https://atcoder.jp/contests/" target="_blank">
+            <img src="images/atcoder.jpg" alt="">
+        </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="list-col">
+            <a href="https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming">
+            <img src="images/topcoder.JPG" alt="" >
+        </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="list-col">
+            <a href="https://leetcode.com/contest/"> 
+            <img src="images/leetcode.JPG" alt="">
+                </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="list-col">
+            <a href="https://www.hackerrank.com/contests"> 
+            <img src="images/hacckerrank.JPG" alt="">
+                </a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<hr>
+<section class="about">
+    <div>
+    <img src="images/coder.png" alt="" class="coder" height="250px" width="200px">
+</div>
+<div class="about-written">
+    <h2>CODESHARE - Place where you can stay all day</h2>
+    <ul>
+        <li>Codeshare is a platform from where you can directly jump to the upcoming or ongoing contests.</li>
+        <li>Codeshare also helps you discuss your doubts from the people all around the globe.</li>
+    </ul>
+</div>
+</section>
+<hr>
+<section class="contact">
+    <h3>
+        Contact Us
+    </h3>
+    <div class="form">
+        <input type="text" class="name" id="name" placeholder="Enter Your name"/>
+        <input type="text" class="name" id="phone" placeholder="Enter Your phone"/>
+        <input type="email" class="name" id="email" placeholder="Enter Your email"/>
+        <!-- <input type="text" class="message" id="message" placeholder="Enter Your message"> -->
+        <textarea rows="4" id="messages" placeholder="Enter Your message"></textarea>
+        <button class="submitbtn" onclick="sendMessage()" >
+            Submit</button>
+    </div>
+</section>
+<footer class="foot">
+    &copy; www.codeshare.com - All rights reserved
+</footer>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+<script src="login/firebase.js"></script>
+<script src="login/welcome.js"></script>
+<!-- <script src="login/index.js"></script> -->
+<script src="index.js"></script>
+</body>
+</html>

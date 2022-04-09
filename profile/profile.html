@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=" 1">
+    <title>profile page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index_css.css">
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+    ></script>
+    </script>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="navbar_container">
+            <a href="/" id="nav_logo"> <img class="logo_pic "src="../images/C.png" alt=""><span class="code">Code</span>Share</a>
+        
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_items">
+                    <a href="/" class="navbar_links">HOME</a>
+                </li>
+                <li class="navbar_items">
+                    <a href="../index.html" class="navbar_links">CONTESTS</a>
+                </li>
+                <li class="navbar_items">
+                    <a href="../chatting.html" class="navbar_links">DISCUSS</a>
+                </li>
+                <li class="navbar_items">
+                    <a href="../search/search.html" class="navbar_links">SEARCH</a>
+                </li>
+                <li class="navbar_items">
+                    <a href="../main.html" class="navbar_links">LOGOUT</a>
+                </li>
+               
+            </ul>
+            <li class="navbar_items">
+                <a href="profile.html" class="navbar_links nav_email"> <span id="user" class="message"><Email-id ></Email-id></span></a>
+            </li>
+        </div>
+    </nav>
+    
+    <div class="wrapper">
+        <div class="left">
+            <div>
+                <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"
+                    alt="user" width="80">
+                <h4>My Profile</h4>
+            </div>
+
+
+        </div>
+        <div class="right">
+            <div class="class1">
+                <label>Profile Setting</label>
+            </div>
+            <!-- <label class="labels">full name</label> -->
+            <div class="class2">
+                <form action="" id="my_form">
+                    <!-- there action will be help to integrate to backend -->
+                    <!-- <label for="fname"><b>handle</b></label><br /> -->
+                    <div class="flex-container">
+                        <div class="for_margin">
+                            <label for="fname">Full name</label>
+                        </div>
+                        <input type="text" placeholder="Enter full Name" id="name" name="fname" required>
+                        <br /><br />
+                        <div class="for_margin">
+                            <label for="codechef handle">Codechef handle</label>
+                        </div>
+                        <input type="text" id="codechef" placeholder="Enter codechef handle" name="codechef handle"
+                            required>
+                        <br /><br />
+                        <div class="for_margin">
+                            <label for="codeforces handle">Codeforces handle</label>
+                        </div>
+                        <input type="text" id="codeforces" placeholder="Enter codeforces handle"
+                            name="codeforces handle" required>
+                    </div>
+                    <div class="flex-container">
+                        <div class="for_margin">
+                            <label for="hackerrank handle">Hackerrank handle</label>
+                        </div>
+                        <input type="text" id="hackerrank" placeholder="Enter hackerrank handle"
+                            name="hackerrank handle" required>
+                        <br /><br />
+                        <div class="for_margin">
+                            <label for="ccstars">Atcoder handle</label>
+                        </div>
+                        <input type="text" id="atcoder" placeholder="Enter Atcoder handle" name="ccstars" required>
+                        <br /><br />
+                        <div class="for_margin">
+                            <label for="leetcode_handle">Leetcode handle</label>
+                        </div>
+                        <input type="text" id="leetcode" placeholder="Enter leetcode handle" name="leetcode_handle"
+                            required>
+                        <br /><br />
+                    </div>
+
+                </form>
+
+                <div class="button-container">
+                    <!-- <input class="submit-btn" type="button" value="Save Profile"> -->
+                    <button type="submit" id="button">Save profile</button>
+                </div>
+                <div id="update_status"> Your profile is updated </div>
+            </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+        <script src="../login/firebase.js"></script>
+        <script src="../login/welcome.js"></script>
+        <script src="../login/index.js"></script>>
+        <script src="profile.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .nav-bar {
+    background: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    font-style: none;
+    font-size: 0.9rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar_container {
+    display: flex;
+            justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  
+  #nav_logo {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    box-align: center;
+            align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+            transform: translateX(-30px);
+  }
+  
+  #nav_logo .code {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .logo_pic {
+    height: 50px;
+    width: 50px;
+    margin: auto 0 20px 0;
+  }
+  
+  .navbar_menu {
+    display: flexbox;
+    display: flex;
+    list-style: none;
+    box-align: center;
+            align-items: center;
+  }
+  
+  .navbar_links {
+    text-decoration: none;
+    display: flex;
+    margin: auto 5px auto 5px;
+    color: white;
+    background: none;
+    padding: 7px 13px;
+    border-radius: 20px;
+  }
+  
+  .navbar_links:hover {
+    background: red;
+    color: black;
+    transition: 0.5s;
+  }
+    
+  header {
+      text-align: center;
+      background: rgb(70, 70, 70);
+      width:30%;
+      color:white;
+      padding-bottom: 10px;
+      transform: translateX(450px);
+      border-radius: 0px 0px 30px 30px;
+      /* box-shadow:5px 10px #888888; */
+      box-shadow:3px 3px 2px 3px #888888;
+  }
+  
+  #messages{
+      padding-bottom: 30%;
+  }
+  
+  li {
+      list-style-type: none;
+      margin-bottom: 10px;
+      background-color: #000000;
+      padding: 5px;
+      border-radius: 10px;
+      color: white;
+      width: 30%;
+  }
+  
+  li span {
+      font-style: italic;
+      font-weight: bolder;
+      color: hsl(273, 84%, 71%);
+  }
+  
+  #chat {
+      width: 80%;
+      margin: auto;
+  }
+  
+  #message-form {
+      text-align: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #b7b5b9;
+  }
+  
+  input {
+      width: 70%;
+      height: 30px;
+  }
+  
+  button {
+      width: 25%;
+      height: 38px;
+  }
+  
+  .sent {
+      text-align: right;
+      background-color: #a79cb3;
+      margin-left: 70%;
+  }
+  .sent:hover{
+      cursor:pointer;
+      background-color: #666567;
+  }
+  .sent span {
+      margin-left: 5px;
+      color: #ff0000;
+  }

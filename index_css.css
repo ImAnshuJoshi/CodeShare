@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-bar {
+  background: black;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  font-style: none;
+  font-size: 0.9rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar_menu{
+  transform: translateX(-70px);
+}
+.nav_email{
+  transform: translateY(7px);                                                                              
+}
+.navbar_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+#nav_logo {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  box-align: center;
+          align-items: center;
+  cursor: pointer;
+  font-size: 2rem;
+          transform: translateX(-30px);
+}
+
+#nav_logo .code {
+  font-weight: bold;
+  color: red;
+}
+
+.logo_pic {
+  height: 50px;
+  width: 50px;
+  margin: auto 0 20px 0;
+}
+
+.navbar_menu {
+  display: flexbox;
+  display: flex;
+  list-style: none;
+  box-align: center;
+          align-items: center;
+}
+
+.navbar_links {
+  text-decoration: none;
+  display: flex;
+  margin: auto 5px auto 5px;
+  color: white;
+  background: none;
+  padding: 7px 13px;
+  border-radius: 20px;
+}
+
+.navbar_links:hover {
+  background: red;
+  color: black;
+  transition: 0.5s;
+}
+
+.home {
+  background-size: cover;
+  background-position: center;
+  background-image: gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.7))), url(main.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)), url(images/main.jpg);
+  height: 500px;
+}
+
+.home .Text {
+  font-weight: none;
+  color: white;
+  font-size: 40px;
+  padding: 120px 0px 0px 20px;
+}
+
+.home .redd {
+  color: red;
+  font-weight: bold;
+}
+
+.know_more {
+  cursor: pointer;
+  color: white;
+  background: none;
+  padding: 7.5px 10px;
+  margin: 20px auto auto 30px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.know_more:hover {
+  background: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contests {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.course-box {
+  text-align: center;
+}
+
+.course-box img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.list-col {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.list-col img {
+  width: 100%;
+}
+
+.list-col img:hover {
+  background-color: #ff0000;
+  opacity: 0.5;
+}
+
+.same-row {
+  display: flex;
+      flex-wrap: wrap;
+}
+
+.same-row > div {
+          flex: 25%;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.about{
+  font-size: 13px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+
+}
+.about-written{
+  margin-top:40px;
+  width:28%;
+}
+* {
+  box-sizing: border-box;
+}
+.contact {
+  padding-top: 30px;
+  background-color: rgb(233, 230, 227);
+  height: 400px;
+}
+.contact h3 {
+  text-align: center;
+}
+.form {
+  text-align: center;
+  max-width: 344px;
+  width: 100%;
+  /* transform: translatex(450px); */
+
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.form input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid grey;
+  /* font-size: 20px;*/
+  border-radius: 5px;
+  /* margin-top: 30px; */
+  margin: 15px 0px;
+}
+.form textarea {
+  resize: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 7px;
+}
+.submitbtn {
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 4px;
+}
+.foot {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.submitbtn{
+  cursor: pointer;
+  
+}
