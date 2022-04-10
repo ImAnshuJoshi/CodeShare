@@ -13,36 +13,36 @@
     <link href="index.css" rel="stylesheet" />
 </head>
 
-<body >
+<body>
     <div class="logo_name">
         <img src="../images/C.png" alt="" class="logo">
         <h2 class="brand_name"> <span class="code">Code</span>Share</h2>
     </div>
     <div class="d-flex justify-content-center p-5">
-    <div class="card">
-        <div class="card-header">
-            <center>
-                <h3>Login Form</h3>
-            </center>
+        <div class="card">
+            <div class="card-header">
+                <center>
+                    <h3>Login Form</h3>
+                </center>
+            </div>
+            <form onsubmit="login()" id="loginForm" class="card-body px-5 py-4">
+                <center><small><span id="error" style="color: rgb(150, 10, 10)"></span></small></center>
+                <center><label class="custom-field">
+                        <input id="email" type="text" class="input" required />
+                        <span class="placeholder">Email Id</span>
+                    </label><br />
+                    <label class="custom-field">
+                        <input id="password" type="password" class="input" required />
+                        <span class="placeholder">Password</span>
+                    </label>
+                </center><br /><br />
+                <a href="#" onclick="forgotPass()" class="forgot">Forgot Password?</a>
+                <center><button type="submit" class="btn btn-primary">Login</button>
+                    <button onclick="signUp()" class="btn btn-secondary">Sign Up</button>
+                </center>
+            </form>
         </div>
-        <form onsubmit="login()" id="loginForm" class="card-body px-5 py-4">
-            <center><small><span id="error" style="color: rgb(150, 10, 10)"></span></small></center>
-            <center><label class="custom-field">
-                    <input id="email" type="text" class="input" required />
-                    <span class="placeholder">Email Id</span>
-                </label><br />
-                <label class="custom-field">
-                    <input id="password" type="password" class="input" required />
-                    <span class="placeholder">Password</span>
-                </label>
-            </center><br /><br />
-            <a href="#" onclick="forgotPass()" class="forgot">Forgot Password?</a>
-            <center><button id="login" type="submit" class="btn btn-primary">Login</button>
-                <button id="signup" onclick="signUp()" class="btn btn-secondary">Sign Up</button>
-            </center>
-        </form>
     </div>
-</div>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
     <!-- TODO: Add SDKs for Firebase products that you want to use
