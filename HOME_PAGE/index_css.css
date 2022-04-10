@@ -91,7 +91,7 @@ html {
   background-size: cover;
   background-position: center;
   background-image: gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.7))), url(main.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)), url(images/main.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)), url(../images/main.jpg);
   height: 500px;
 }
 

@@ -145,7 +145,7 @@ input[type=text] {
     cursor: pointer;
     margin-left:5px ;
     color: aliceblue;
-    background: linear-gradient(to bottom right, #C90A6D, #FF48A0);;
+    background: linear-gradient(to bottom right, #b30000, #d30101);;
     box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2),
     0 3px 6px rgba(0, 0, 0, 0.2);
 }
